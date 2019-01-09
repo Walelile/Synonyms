@@ -1,3 +1,23 @@
+# 3.10
+* 计算编辑距离时去停用词
+
+# 3.9
+* fix bug
+
+# 3.8
+* 获得一个分词后句子的向量，向量以BoW方式组成
+
+
+```
+    sentence: 句子是分词后通过空格联合起来
+    ignore: 是否忽略OOV，False时，随机生成一个向量
+```
+
+
+# 3.7
+* change import path of utils in word2vec.py to local path
+* expose vector fn
+
 # 3.6
 * Fix Bug: compare 保证交换两个句子后分数一致 [#60](https://github.com/huyingxi/Synonyms/issues/60)
 
